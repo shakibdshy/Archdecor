@@ -49,6 +49,7 @@ body{
     opacity: 0;
     visibility: hidden;
     transition: .3s;
+    background: #fff;
 }
 .menu-area ul li:hover ul.dropdown-menu {
     opacity: 1;
@@ -225,4 +226,55 @@ body{
     color: #444444;
     cursor: pointer;
 }
+/* Slider Area Start */
+.single-slider {
+    position: relative;
+}
 
+.single-slider .slider-content {
+    text-align: center;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.single-slider .slider-content h4 {
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: -15px;
+}
+
+.single-slider .slider-content h3 {
+    font-size: 72px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.single-slider .slider-content a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 40px;
+    background: #ebcd1e;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 13px;
+}
+.slider-area .owl-dots {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slider-area .owl-dots button {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #f1f1f1;
+    background: transparent;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/* Slider Area End */
