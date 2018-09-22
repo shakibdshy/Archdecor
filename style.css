@@ -9,6 +9,28 @@ body{
     font-size: 15px;
     box-sizing: border-box;
 }
+.section-title {
+    text-align: center;
+}
+
+.section-title h4 {
+    color: #ebcd1e;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.section-title h4 span {
+    color: #333333;
+}
+
+.section-title p {
+    color: #666666;
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 85px; 
+}
 .ml-30{
     margin-left: 30px;
 }
@@ -289,10 +311,11 @@ body{
 .container-fluid {
     width: 100%;
 }
-
+.service-wrapper{
+    display: flex;
+}
 .service-inner {
     width: 25%;
-    float: left;
 }
 .service-content {
     border: 1px solid #7f7f7f;
@@ -352,3 +375,58 @@ body{
     color: #f9f9f9;
 }
 /* Service Area End */
+/* About Process Area Start */
+.our-process-area{
+    background: #f8f8f8;
+}
+.our-process-item {
+    background: #333333;
+    padding: 45px 30px;
+}
+
+.our-process-item i {
+    color: #ebcd1e;
+    font-size: 30px;
+}
+
+.our-process-item h4 {
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.our-process-item p {
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 22px;
+    margin-top: 15px;
+    width: 90%;
+}
+.our-process-wrapper {
+    position: relative;
+    margin-top: 25px;
+}
+.item-border-b:after {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    border: 2px dashed #bbbbbb;
+    content: '';
+    border-top: none;
+    left: 50%;
+    bottom: -32px;
+}
+
+.item-border-t:before {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    border: 2px dashed #bbbbbb;
+    content: '';
+    left: 50%;
+    border-bottom: none;
+    top: -32px;
+}
+/* About Process Area End */
