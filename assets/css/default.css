@@ -80,6 +80,10 @@
 	margin-right: 15px;
 	margin-left: 15px;
 }
+.no-gutter {
+	margin: 0;
+}
+
 .mt-5 {
 	margin-top: 5px;
 }
