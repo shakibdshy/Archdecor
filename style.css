@@ -513,6 +513,9 @@ body{
 .blog-wrapper {
     position: relative;
 }
+.blog-img {
+    margin-right: 25px;
+}
 .blog-img img{
     width:100%;
 }
@@ -542,7 +545,7 @@ body{
     width: 80px;
     height: 80px;
     top: 20px;
-    right: 20px;
+    right: 40px;
 }
 .blog-content h4 {
     font-size: 18px;
@@ -550,7 +553,7 @@ body{
     text-transform: uppercase;
     font-weight: 700;
     line-height: 22px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .blog-content span {
@@ -569,4 +572,101 @@ body{
     color: #666666;
     line-height: 22px;
 }
+.blog-item {
+    margin-bottom: 65px;
+}
+.blog-right-img {
+    position: relative;
+}
+.blog-right-img img {
+    width: 100%;
+}
+.blog-right-date {
+    position: absolute;
+    padding: 5px;
+    background: #333333;
+}
+.right-date {
+    width: 47px;
+    height: 47px;
+    top: 15px;
+    right: 15px;
+}
+.blog-date-init {
+    border: 1px solid #858585;
+    padding: 8px 0;
+}
+.blog-date-init span {
+    display: block;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.blog-right-content h4 {
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.blog-right-content span {
+    color: #999999;
+    font-size: 11px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 22px;
+    padding-bottom: 5px;
+    display: block;
+    padding-top: 5px;
+}
+
+.blog-right-content p {
+    font-size: 13px;
+    color: #666666;
+    line-height: 22px;
+}
+.blog-btn {
+    text-align: center;
+}
+
+.blog-btn a {
+    background: #ebcd1e;
+    border: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.blog-btn a:hover {
+    background: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Blog Area End */
