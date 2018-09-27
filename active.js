@@ -33,6 +33,46 @@
         }
     })
 
+    // Client Area
+    $('.active-client').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: false,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            }
+        }
+    })
+
+    // Brand Area
+    $('.brand-area-active').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            },
+            1200: {
+                items: 8
+            }
+        }
+    })
 
 
 
