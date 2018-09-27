@@ -1,5 +1,12 @@
 (function ($) {
 
+    // Mobile Menu
+    jQuery('header nav').meanmenu({
+        meanScreenWidth: "768",
+        meanMenuContainer: '.mobile-menu'
+    });
+
+
      /* Search */
      $('.search-button__btn').on('click', function () {
          if ($('#header-input').hasClass('form__input--hidden')) {
@@ -44,7 +51,7 @@
                 items: 1
             },
             600: {
-                items: 3
+                items: 2
             },
             1000: {
                 items: 3

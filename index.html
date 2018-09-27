@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
     <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -19,7 +21,7 @@
         <div class="header-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-md-2">
                         <div class="logo-area">
                             <img src="assets/images/logo-black.png" alt="">
                         </div>
@@ -78,7 +80,7 @@
                             </div>
                         </div>
                         <div class="menu-area">
-                            <nav>
+                            <nav id="mobile-menu">
                                 <ul>
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">Projects</a></li>
@@ -100,6 +102,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="mobile-menu"></div>
             </div>
         </div>
     </header>
@@ -141,38 +144,47 @@
     <!-- Service Area Start -->
     <div class="service-area">
         <div class="container-fluid">
-            <div class="service-wrapper">
-                <div class="service-inner" style="background: url(assets/images/service-01.jpg) center / cover">
-                    <div class="service-content ">
-                        <div class="service-item service-intro">
-                            <h4><span>we are arch </span><br> your best solution</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Ut enim ad minim veniam, quis
-                                nostrud exercitat ullamco laboris nisi ut aliquip ex ea com consequat realzonal.</p>
-                            <a href="#" class="btn">See more</a>
+            <div class="row no-gutters">
+                <div class="col-xl-3 col-md-6">
+                    <div class="service-inner" style="background: url(assets/images/service-01.jpg) center / cover">
+                        <div class="service-content ">
+                            <div class="service-item service-intro">
+                                <h4><span>we are arch </span><br> your best solution</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Ut enim ad minim
+                                    veniam, quis
+                                    nostrud exercitat ullamco laboris nisi ut aliquip ex ea com consequat realzonal.</p>
+                                <a href="#" class="btn">See more</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="service-inner" style="background: url(assets/images/service-02.jpg) center / cover">
-                    <div class="service-content">
-                        <div class="service-item">
-                            <img src="assets/images/icon/icon-service-01.png" alt="Icon">
-                            <h4>Agency interior</h4>
+                <div class="col-xl-3 col-md-6">
+                    <div class="service-inner" style="background: url(assets/images/service-02.jpg) center / cover">
+                        <div class="service-content">
+                            <div class="service-item">
+                                <img src="assets/images/icon/icon-service-01.png" alt="Icon">
+                                <h4>Agency interior</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="service-inner" style="background: url(assets/images/service-03.jpg) center / cover">
-                    <div class="service-content">
-                        <div class="service-item">
-                            <img src="assets/images/icon/icon-service-02.png" alt="Icon">
-                            <h4>Ecommerce interior</h4>
+                <div class="col-xl-3 col-md-6">
+                    <div class="service-inner" style="background: url(assets/images/service-03.jpg) center / cover">
+                        <div class="service-content">
+                            <div class="service-item">
+                                <img src="assets/images/icon/icon-service-02.png" alt="Icon">
+                                <h4>Ecommerce interior</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="service-inner f-none" style="background: url(assets/images/service-02.jpg) center / cover">
-                    <div class="service-content">
-                        <div class="service-item">
-                            <img src="assets/images/icon/icon-service-03.png" alt="Icon">
-                            <h4>residential interior</h4>
+                <div class="col-xl-3 col-md-6">
+                    <div class="service-inner f-none" style="background: url(assets/images/service-02.jpg) center / cover">
+                        <div class="service-content">
+                            <div class="service-item">
+                                <img src="assets/images/icon/icon-service-03.png" alt="Icon">
+                                <h4>residential interior</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -190,9 +202,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor</p>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="our-process-wrapper">
                         <div class="our-process-item item-border-b">
                             <i class="zmdi zmdi-accounts-alt"></i>
@@ -201,7 +211,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="our-process-wrapper">
                         <div class="our-process-item item-border-t">
                             <i class="zmdi zmdi-library"></i>
@@ -210,7 +220,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="our-process-wrapper">
                         <div class="our-process-item item-border-b">
                             <i class="zmdi zmdi-puzzle-piece"></i>
@@ -219,7 +229,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="our-process-wrapper">
                         <div class="our-process-item">
                             <i class="zmdi zmdi-city-alt"></i>
@@ -235,103 +245,125 @@
     <!-- Project Area Start -->
     <section>
         <div class="project-area pt-100">
-            <div class="section-title">
-                <h4><span>lastest</span> project</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor</p>
-            </div>
-            <div class="project-wrapper">
-                <div class="project-img">
-                    <img src="assets/images/latest-project-01.jpg" alt="">
-                </div>
-                <div class="overly"></div>
-                <div class="project-content">
-                    <div class="project-text">
-                        <h4>Au agency</h4>
-                        <p>Living room</p>
+            <div class="container-fluid">
+                <div class="row no-gutters">
+                    <div class="col-xl-12">
+                        <div class="section-title">
+                            <h4><span>lastest</span> project</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor</p>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="project-wrapper">
-                <div class="project-img">
-                    <img src="assets/images/latest-project-02.jpg" alt="">
-                </div>
-                <div class="overly"></div>
-                <div class="project-content">
-                    <div class="project-text">
-                        <h4>Au agency</h4>
-                        <p>Living room</p>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="project-wrapper">
+                            <div class="project-img">
+                                <img src="assets/images/latest-project-01.jpg" alt="">
+                            </div>
+                            <div class="overly"></div>
+                            <div class="project-content">
+                                <div class="project-text">
+                                    <h4>Au agency</h4>
+                                    <p>Living room</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="project-wrapper">
-                <div class="project-img">
-                    <img src="assets/images/latest-project-03.jpg" alt="">
-                </div>
-                <div class="overly"></div>
-                <div class="project-content">
-                    <div class="project-text">
-                        <h4>Au agency</h4>
-                        <p>Living room</p>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="project-wrapper">
+                            <div class="project-img">
+                                <img src="assets/images/latest-project-02.jpg" alt="">
+                            </div>
+                            <div class="overly"></div>
+                            <div class="project-content">
+                                <div class="project-text">
+                                    <h4>Au agency</h4>
+                                    <p>Living room</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="project-wrapper">
-                <div class="project-img">
-                    <img src="assets/images/latest-project-04.jpg" alt="">
-                </div>
-                <div class="overly"></div>
-                <div class="project-content">
-                    <div class="project-text">
-                        <h4>Au agency</h4>
-                        <p>Living room</p>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="project-wrapper">
+                            <div class="project-img">
+                                <img src="assets/images/latest-project-03.jpg" alt="">
+                            </div>
+                            <div class="overly"></div>
+                            <div class="project-content">
+                                <div class="project-text">
+                                    <h4>Au agency</h4>
+                                    <p>Living room</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="project-wrapper">
-                <div class="project-img">
-                    <img src="assets/images/latest-project-05.jpg" alt="">
-                </div>
-                <div class="overly"></div>
-                <div class="project-content">
-                    <div class="project-text">
-                        <h4>Au agency</h4>
-                        <p>Living room</p>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="project-wrapper">
+                            <div class="project-img">
+                                <img src="assets/images/latest-project-04.jpg" alt="">
+                            </div>
+                            <div class="overly"></div>
+                            <div class="project-content">
+                                <div class="project-text">
+                                    <h4>Au agency</h4>
+                                    <p>Living room</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="project-wrapper">
-                <div class="project-img">
-                    <img src="assets/images/latest-project-06.jpg" alt="">
-                </div>
-                <div class="overly"></div>
-                <div class="project-content">
-                    <div class="project-text">
-                        <h4>Au agency</h4>
-                        <p>Living room</p>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="project-wrapper">
+                            <div class="project-img">
+                                <img src="assets/images/latest-project-05.jpg" alt="">
+                            </div>
+                            <div class="overly"></div>
+                            <div class="project-content">
+                                <div class="project-text">
+                                    <h4>Au agency</h4>
+                                    <p>Living room</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="project-wrapper">
-                <div class="project-img">
-                    <img src="assets/images/latest-project-08.jpg" alt="">
-                </div>
-                <div class="overly"></div>
-                <div class="project-content">
-                    <div class="project-text">
-                        <h4>Au agency</h4>
-                        <p>Living room</p>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="project-wrapper">
+                            <div class="project-img">
+                                <img src="assets/images/latest-project-06.jpg" alt="">
+                            </div>
+                            <div class="overly"></div>
+                            <div class="project-content">
+                                <div class="project-text">
+                                    <h4>Au agency</h4>
+                                    <p>Living room</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="project-wrapper project-inner">
-                <div class="project-img">
-                    <img src="assets/images/latest-project-08.jpg" alt="">
-                </div>
-                <div class="overly"></div>
-                <div class="project-content">
-                    <div class="project-text">
-                        <h4>Au agency</h4>
-                        <p>Living room</p>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="project-wrapper">
+                            <div class="project-img">
+                                <img src="assets/images/latest-project-08.jpg" alt="">
+                            </div>
+                            <div class="overly"></div>
+                            <div class="project-content">
+                                <div class="project-text">
+                                    <h4>Au agency</h4>
+                                    <p>Living room</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="project-wrapper project-inner">
+                            <div class="project-img">
+                                <img src="assets/images/latest-project-08.jpg" alt="">
+                            </div>
+                            <div class="overly"></div>
+                            <div class="project-content">
+                                <div class="project-text">
+                                    <h4>Au agency</h4>
+                                    <p>Living room</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -350,7 +382,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-5">
+                <div class="col-xl-5 col-md-12">
                     <div class="blog-wrapper">
                         <div class="blog-img">
                             <img src="assets/images/blog-single-01.jpg" alt="Blog Image">
@@ -368,9 +400,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-7">
+                <div class="col-xl-7 col-md-12">
                     <div class="row">
-                        <div class="col-xl-5">
+                        <div class="col-md-5">
                             <div class="blog-item">
                                 <div class="blog-inner">
                                     <div class="blog-right-img">
@@ -385,7 +417,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-7">
+                        <div class="col-md-7">
                             <div class="blog-right-content">
                                 <h4>the detail are not the detail , they make the design</h4>
                                 <span>by Anthony Lee</span>
@@ -394,7 +426,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xl-5">
+                        <div class="col-md-5">
                             <div class="blog-item">
                                 <div class="blog-inner">
                                     <div class="blog-right-img">
@@ -409,7 +441,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-7">
+                        <div class="col-md-7">
                             <div class="blog-right-content">
                                 <h4>the detail are not the detail , they make the design</h4>
                                 <span>by Anthony Lee</span>
@@ -418,7 +450,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xl-5">
+                        <div class="col-md-5">
                             <div class="blog-item">
                                 <div class="blog-inner">
                                     <div class="blog-right-img">
@@ -433,7 +465,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-7">
+                        <div class="col-md-7">
                             <div class="blog-right-content">
                                 <h4>the detail are not the detail , they make the design</h4>
                                 <span>by Anthony Lee</span>
@@ -610,6 +642,7 @@
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="active.js"></script>
 </body>

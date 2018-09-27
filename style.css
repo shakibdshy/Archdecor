@@ -308,14 +308,9 @@ body{
 }
 /* Slider Area End */
 /* Service Area Start */
-.container-fluid {
-    width: 100%;
-}
-.service-wrapper{
-    display: flex;
-}
-.service-inner {
-    width: 25%;
+.service-area .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
 }
 .service-content {
     border: 1px solid #7f7f7f;
@@ -435,9 +430,7 @@ body{
     overflow: hidden;
 }
 .project-wrapper {
-    width: 25%;
     position: relative;
-    float: left;
 }
 .project-wrapper:hover .project-img::before {
     opacity: 0.8;
@@ -533,7 +526,7 @@ body{
 .blog-init {
     border: 1px solid #969696;
     background: #333333;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 .blog-date {
     position: absolute;
@@ -594,7 +587,7 @@ body{
 }
 .blog-date-init {
     border: 1px solid #858585;
-    padding: 8px 0;
+    padding: 3px 0;
 }
 .blog-date-init span {
     display: block;
@@ -764,7 +757,7 @@ body{
 }
 
 .footer-widgets-four {
-    padding-top: 45px;
+    padding-top: 25px;
     padding-bottom: 45px;
 }
 
